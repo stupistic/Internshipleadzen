@@ -14,7 +14,7 @@ export const Pagination = ({ postperpage, totalpost, paginate }) => {
           <a
             key={number}
             onClick={() => paginate(number).preventDefault()}
-            href="!#"
+            href="/#"
           >
             {number}
           </a>
